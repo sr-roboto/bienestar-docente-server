@@ -43,6 +43,8 @@ print(f"DEBUG: Cleaned FRONTEND_URL for CORS: {cleaned_frontend_url}")
 origins = [
     "http://localhost:5173",
     "http://localhost:3000",
+    "https://bienestar-docente.netlify.app",
+    "https://www.bienestar-docente.netlify.app"
 ]
 
 if cleaned_frontend_url:
