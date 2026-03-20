@@ -17,7 +17,8 @@ GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET", "your-client-secret")
 GOOGLE_REDIRECT_URI = os.getenv("GOOGLE_REDIRECT_URI", "http://localhost:8000/auth/google/callback")
 
 # Google AI
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", GEMINI_API_KEY)
 
 # Frontend
 FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost")
