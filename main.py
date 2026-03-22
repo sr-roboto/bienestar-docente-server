@@ -44,7 +44,9 @@ origins = [
     "http://localhost:5173",
     "http://localhost:3000",
     "https://bienestar-docente.netlify.app",
-    "https://www.bienestar-docente.netlify.app"
+    "https://www.bienestar-docente.netlify.app",
+    "https://bienestardocente.com.ar",
+    "https://www.bienestardocente.com.ar",
 ]
 
 if cleaned_frontend_url:
