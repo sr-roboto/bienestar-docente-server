@@ -7,5 +7,5 @@ google_sso = GoogleSSO(
     client_secret=GOOGLE_CLIENT_SECRET,
     redirect_uri=GOOGLE_REDIRECT_URI,
     allow_insecure_http=True,
-    scope=["openid", "email", "profile", "https://www.googleapis.com/auth/calendar.events"]
+    scope=["openid", "email", "profile"]
 )
